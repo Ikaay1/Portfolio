@@ -118,4 +118,35 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    id: "concilio",
+    title: "Concilio",
+    subtitle: "Python • Scikit-learn",
+    description:
+      "A Machine Learning data-driven tool that helps Concilio, a non-profit, identify and support high-need households across Dallas zip codes.",
+    tags: ["fullstack", "ai"],
+    stack: ["Python", "Pandas", "Scikit-learn", "Streamlit", "Matplotlib"],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/Ikaay1/JPMorgan-Chase-Data-for-Good",
+      },
+      { label: "Live", href: "https://concilio.streamlit.app/" },
+    ],
+  },
+  {
+    id: "netcare",
+    title: "Netcare Access",
+    subtitle: "Python • TypeScript",
+    description:
+      "An application to empower Netcare Access, a medical non-profit, with streamlined access to comprehensive patient insights and reports.",
+    tags: ["fullstack", "backend"],
+    stack: ["Python", "TypeScript", "React", "SQL"],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/Ikaay1/JPMorgan-Code-For-Good-24",
+      },
+    ],
+  },
 ];
