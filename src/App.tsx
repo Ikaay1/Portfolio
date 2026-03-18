@@ -61,7 +61,7 @@ const PROJECTS: Project[] = [
     id: 1,
     title: "Eventlify",
     category: "EduTech",
-    image: "/src/images/eventlify.png",
+    image: "/images/eventlify.png",
     description:
       "A centralized event and room scheduling app for Fisk University student organizations.",
     link: "https://fiskevents.vercel.app",
@@ -72,7 +72,7 @@ const PROJECTS: Project[] = [
     id: 2,
     title: "CollabNext",
     category: "Web Development",
-    image: "/src/images/collabnext.png",
+    image: "/images/collabnext.png",
     description:
       "A discovery app that connects users to relevant researchers, organizations, and research domains.",
     link: "https://collabnext.io",
@@ -83,7 +83,7 @@ const PROJECTS: Project[] = [
     id: 3,
     title: "AI Email Helper",
     category: "Machine Learning",
-    image: "/src/images/email.png",
+    image: "/images/email.png",
     description:
       "An AI-powered email editing tool that transforms messages into any desired tone and style.",
     link: "https://email-editing.streamlit.app/",
@@ -94,7 +94,7 @@ const PROJECTS: Project[] = [
     id: 4,
     title: "Circo",
     category: "Web Development",
-    image: "/src/images/circo.jpg",
+    image: "/images/circo.jpg",
     description:
       "A video-sharing platform for creating, uploading, and discovering user-generated content.",
     link: "https://circo.vercel.app/",
@@ -105,7 +105,7 @@ const PROJECTS: Project[] = [
     id: 5,
     title: "Healthcare",
     category: "Mobile Development",
-    image: "/src/images/healthcare.jpg",
+    image: "/images/healthcare.jpg",
     description:
       "A mobile healthcare app for booking appointments, scheduling lab tests, and buying medicines.",
     link: "#",
@@ -116,7 +116,7 @@ const PROJECTS: Project[] = [
     id: 6,
     title: "Concilio",
     category: "Machine Learning",
-    image: "/src/images/concilio.png",
+    image: "/images/concilio.png",
     description:
       "A Machine Learning data-driven tool that helps Concilio, a non-profit, identify and support high-need households.",
     link: "#",
@@ -127,7 +127,7 @@ const PROJECTS: Project[] = [
     id: 7,
     title: "TikTik",
     category: "Web development",
-    image: "/src/images/tiktik.png",
+    image: "/images/tiktik.png",
     description:
       "A short-form video social app for creating, sharing, and discovering engaging user-generated content.",
     link: "https://tiktik-ikm.vercel.app/",
@@ -138,7 +138,7 @@ const PROJECTS: Project[] = [
     id: 8,
     title: "ShareMe",
     category: "Web development",
-    image: "/src/images/shareme.png",
+    image: "/images/shareme.png",
     description:
       "An image discovery and bookmarking app for saving, organizing, and sharing inspiration",
     link: "https://sharemeikm.netlify.app/",
@@ -151,7 +151,7 @@ const EXPERIENCES: Experience[] = [
   {
     id: 1,
     company: "Amazon",
-    logo: "/src/images/amazon.webp",
+    logo: "/images/amazon.webp",
     role: "Software Engineer Intern",
     period: "May 2025 - August 2025",
     location: "Seattle, WA",
@@ -162,7 +162,7 @@ const EXPERIENCES: Experience[] = [
   {
     id: 2,
     company: "Fisk University",
-    logo: "/src/images/fisk.gif",
+    logo: "/images/fisk.gif",
     role: "Teaching Assistant",
     period: "2024 — 2026",
     location: "Nashville, TN",
@@ -173,7 +173,7 @@ const EXPERIENCES: Experience[] = [
   {
     id: 3,
     company: "Georgia Institute of Information Technology",
-    logo: "/src/images/georgiatech.png",
+    logo: "/images/georgiatech.png",
     role: "Student Software Developer",
     period: "March 2024 — April 2025",
     location: "Remote",
@@ -401,7 +401,7 @@ const Hero = () => {
         >
           <div className="relative z-10 w-full max-w-[340px] aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
             <img
-              src="/src/images/Ikechukwu Mgbemele.jpg"
+              src="/images/Ikechukwu Mgbemele.jpg"
               alt="Ikechukwu Mgbemele"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-1000"
@@ -506,7 +506,7 @@ const About = () => {
                 className="aspect-[3/4] bg-white/5 rounded-2xl overflow-hidden relative group"
               >
                 <img
-                  src="/src/images/Ikechukwu.jpg"
+                  src="/images/Ikechukwu.jpg"
                   className="w-full h-full object-cover object-top opacity-80 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
                 />
