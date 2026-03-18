@@ -164,7 +164,7 @@ const EXPERIENCES: Experience[] = [
     company: "Fisk University",
     logo: "/images/fisk.gif",
     role: "Teaching Assistant",
-    period: "2024 — 2026",
+    period: "January 2025 — Present",
     location: "Nashville, TN",
     description:
       "Tutored students in object-oriented programming and data structures and algorithm concepts. Taught through topics such as classes, recursion, complexity analysis, and data structure design. Also, I led structured sessions and provided one-on-one support to break down complex concepts to help students better understand.",
