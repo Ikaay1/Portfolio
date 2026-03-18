@@ -249,13 +249,6 @@ const Navbar = () => {
               {item}
             </motion.a>
           ))}
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-6 py-2 border border-white/20 rounded-full text-sm font-medium hover:bg-white hover:text-bg transition-colors"
-          >
-            Welcome
-          </motion.button>
         </div>
 
         <button
