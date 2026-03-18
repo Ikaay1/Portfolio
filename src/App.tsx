@@ -705,7 +705,7 @@ const Projects = () => {
       </div>
 
       <div className="mt-20 text-center">
-        <a href={contact.github} target="_blank">
+        <a href={`https://github.com/${contact.github}`} target="_blank">
           <button className="px-10 py-5 border border-white/10 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-bg transition-all">
             View All Repositories
           </button>
